@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/emu198x/emu198x/discussions
+    about: For open-ended questions rather than bug reports.

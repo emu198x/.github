@@ -1,0 +1,52 @@
+name: Bug report
+description: A divergence from real hardware, wrong timing, a crash, or other incorrect behaviour.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Accuracy bugs are the ones that matter most —
+        please name the system and include the media (or test vector) plus what
+        you expected versus what happened.
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - ZX Spectrum (and clones)
+        - Commodore 64
+        - Commodore Amiga
+        - Nintendo NES
+        - Nintendo Game Boy
+        - Dragon
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Release version, or the git commit you built.
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Media or test vector
+      description: The ROM / disk / tape / snapshot, where to get it, or the failing test (e.g. a Tom Harte / ZEXALL case).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual
+      description: What real hardware (or another emulator, or a test suite) does, versus what Emu198x does — timing, visuals, audio, or behaviour.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Logs, a screenshot, or a recording, if you have them.
+    validations:
+      required: false
