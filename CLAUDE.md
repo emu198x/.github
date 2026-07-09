@@ -1,9 +1,6 @@
 # Emu198x — org container
 
-This folder is the local mirror of the **`emu198x` GitHub org**. It is a
-*container*, not the flagship repo itself: each subfolder is its own independent
-repo with its own history and remote, matching the sibling pattern used by
-`Asm198x/`, `Cat198x/`, `Build198x/`, `Forge198x/`, and `Play198x/`.
+This folder is the org container for the **`emu198x` GitHub organisation**. It is not the flagship repo itself; each child folder is an independent repo with its own remote. Commit inside the repo that owns the file.
 
 Emu198x is the emulator sibling of the 198x family: a multi-platform retro
 emulator suite and reusable Rust hardware-core workspace. See the umbrella
