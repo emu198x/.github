@@ -1,6 +1,6 @@
 # Emu198x — org container
 
-> Read [`PRINCIPLES.md`](.github/PRINCIPLES.md) first.
+> Read [`PRINCIPLES.md`](.github/PRINCIPLES.md) first. [`MANIFESTO.md`](.github/MANIFESTO.md) is why the project exists.
 
 This folder is the org container for the **`emu198x` GitHub organisation**. It is not the flagship repo itself; each child folder is an independent repo with its own remote. Commit inside the repo that owns the file.
 
