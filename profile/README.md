@@ -23,3 +23,7 @@ share a hardware-reference layer — [Code198x](https://github.com/code198x)
 (curriculum), [Asm198x](https://github.com/asm198x) (assemblers), and
 [Cat198x](https://github.com/cat198x) (asset cataloguing). Emulators, teaching,
 and tooling: different views of the same machines.
+
+## Foundations
+
+Every project in the 198x family shares three documents: [why it exists](https://github.com/emu198x/.github/blob/main/MANIFESTO.md), [the principles it decides by](https://github.com/emu198x/.github/blob/main/PRINCIPLES.md), and [how it works on a subject](https://github.com/emu198x/.github/blob/main/PRACTICE.md).
